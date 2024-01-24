@@ -6,6 +6,8 @@ body {
   color: white;
 }
 
+/* elements */
+
 h1,
 li {
   font-family: "Audiowide", sans-serif;
@@ -18,6 +20,17 @@ li {
   padding: 8px;
 }
 
+/* classes */
+
+.top-nav {
+  display: inline;
+  float: right;
+  padding: 12px;
+  color: white;
+  font-family: "Audiowide", sans-serif;
+}
+
+/* Social media section  */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -46,7 +59,7 @@ li {
   color: white;
 }
 
-.sound-wave {
+.microphone {
   width: 100px;
 }
 
@@ -65,5 +78,40 @@ li {
 }
 
 .second-nav {
-  float: center;
+  float: right;
+  font-family: "Audiowide", sans-serif;
 }
+
+/* a tags */
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* section 2  */
+.about-section {
+  float: right;
+  font-family: "Audiowide", sans-serif;
+}
+
+/* section 3  */
