@@ -1,9 +1,8 @@
 body {
-  background-image: url("assets/music_city.avif");
+  background-image: url("assets/concert_photo.avif");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 1300px 1300px;
-
+  background-size: cover;
   color: white;
 }
 
