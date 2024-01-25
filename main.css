@@ -27,6 +27,11 @@ li {
 
 /* classes */
 
+.explore-page {
+  font-size: 50px;
+  color: white;
+}
+
 .about-page {
   font-size: 50px;
 }
