@@ -9,6 +9,12 @@ body {
 }
 
 /* elements */
+
+h1 {
+  font-weight: bold;
+  color: black;
+  font-size: 65px;
+}
 button {
   font-family: "Audiowide", sans-serif;
 }
@@ -20,6 +26,21 @@ li {
 }
 
 /* classes */
+
+.girl_music {
+  width: 100px;
+  float: right;
+}
+
+.taylors {
+  background-color: black;
+}
+
+.Vybez {
+  text-align: center;
+  font-size: 65px;
+  color: white;
+}
 
 .side-bar {
   float: right;
@@ -35,7 +56,6 @@ li {
 .top-nav {
   display: inline;
   float: right;
-  padding: 12px;
   color: white;
   font-family: "Audiowide", sans-serif;
   text-align: center;
@@ -79,8 +99,7 @@ li {
 }
 
 .studio-artist {
-  width: 90px;
-  height: 100px;
+  height: 200px;
 }
 
 .music-player {
@@ -88,9 +107,8 @@ li {
 }
 
 .second-nav {
-  float: right;
   font-family: "Audiowide", sans-serif;
-  color: whit;
+  color: white;
 }
 
 /* a tags */
@@ -121,8 +139,17 @@ a:active {
 
 /* section 2  */
 .about-section {
+  padding: 30px;
   float: right;
   font-family: "Sedgwick Ave", cursive;
 }
 
 /* section 3  */
+
+/* @media */
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+}
