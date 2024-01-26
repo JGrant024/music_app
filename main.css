@@ -4,8 +4,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  font-family: "Noto Sans Tai Le", sans-serif;
-  font-family: "Sedgwick Ave", cursive;
+  font-family: "Avenir LT Pro", sans-serif;
+
+  /* font-family: "Noto Sans Tai Le", sans-serif;
+  font-family: "Sedgwick Ave", cursive; */
 }
 
 /* elements */
@@ -26,8 +28,7 @@ li {
 }
 
 /* classes */
-
-.explore-page {
+x .explore-page {
   font-size: 50px;
   color: white;
 }
@@ -45,7 +46,7 @@ li {
   background-color: black;
 }
 
-.Vybez {
+.press-play {
   text-align: center;
   font-size: 65px;
   color: white;
