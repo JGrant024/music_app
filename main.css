@@ -5,13 +5,18 @@ body {
   background-size: cover;
   color: white;
   font-family: "Avenir LT Pro", sans-serif;
+}
 
-  /* font-family: "Noto Sans Tai Le", sans-serif;
-  font-family: "Sedgwick Ave", cursive; */
+/* Reset default margin and padding for body */
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 /* elements */
-
 h1 {
   font-weight: bold;
   color: black;
@@ -22,20 +27,41 @@ button {
   font-family: "Audiowide", sans-serif;
 }
 
-li {
-  display: inline;
+/* Navigation styles */
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar ul li {
+  margin-right: 20px;
+}
+
+.nav-bar2 li {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-left: 200px;
+  text-align: center;
   float: right;
-  padding: 8px;
 }
 
 /* classes */
 
-.frames {
-  white-space: nowrap;
+.symbol {
+  transform: rotate(90deg);
+  font-size: 50px;
+  display: inline-block;
+  text-align: center;
+  font-size: 175px;
+  color: white;
 }
 
-.nicki {
-  background-color: red;
+.frames {
+  white-space: nowrap;
 }
 
 .goodvibes {
@@ -75,27 +101,17 @@ li {
 .press-play {
   display: inline-block;
   text-align: center;
-  font-size: 105px;
+  font-size: 175px;
   color: white;
-  margin-right: 40px;
 }
 
 .sign-up,
 .login {
-  float: right;
   font-size: 20px;
   margin: 8px;
 }
 
-.top-nav {
-  display: inline;
-  float: right;
-  color: white;
-  font-family: "Avenir LT Pro", sans-serif;
-  text-align: center;
-}
-
-/* Social media section  */
+/* Social media section */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -108,25 +124,16 @@ li {
   opacity: 0.7;
 }
 
-.fa-facebook {
-  color: white;
-}
-
-.fa-twitter {
-  color: white;
-}
-
-.fa-instagram {
-  color: white;
-}
-
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
 .fa-spotify {
   color: white;
 }
 
 .play_button {
   width: 150px;
-  text-align: center;
+  margin-right: 10px;
 }
 
 .studio-artist {
@@ -139,42 +146,25 @@ li {
 }
 
 /* a tags */
-
-a:link {
+a {
   color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: white;
-  background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: white;
-  background-color: transparent;
   text-decoration: underline;
 }
 
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-/* section 2  */
+/* section 2 */
 .about-section {
   padding: 30px;
   float: right;
   font-family: "Sedgwick Ave", cursive;
 }
 
-/* section 3  */
+/* section 3 */
 
 /* @media */
-
 @media screen and (min-width: 640px) {
   .fa-spotify {
     color: green;
