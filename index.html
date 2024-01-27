@@ -27,48 +27,59 @@
   <body>
     
     <header>
-      <a class="sign-up" href="./sign-up.html"> <button>Sign Up</button>
-      </a>
-      <a class="login" href="./login.html"> <button>Login</button>
-          </a>
-      <nav>
-        <ul class="top-nav">
-          
-          <a href="./about.html">About Page</a>
-          <a href="./explore.html">Explore</a>
-
+      <nav class="nav-bar">
+        <ul>
+          <img class="play_button" src="assets/play_button.png" alt="play_button" />
+            <p class="press-play">Press Play</p>
+            <a class="sign-up" href="./sign-up.html"> <button>Sign Up</button>
+            </a>
+            <a class="login" href="./login.html"> <button>Login</button>
+            </a>
+            <a href="./about.html">About</a>
+            <a href="./explore.html">Explore</a>
         </ul>
-      <img class="microphone" src="assets/microphone.avif" alt="my-tune logo" />
-      <div class="press-play">Press Play</div>
-      
-      
       </nav>
     </header>
     <br />
     <section class="section1">
-      <div class="goodvibes">YOUR DAILY DOSE OF GOOD VIBES!</div>
-      <h1>music is the answer</h1>
-      <div class="Discover">
-        Discover new tunes and set the right mood for your everyday activites.
+      <div class="container">
+        <h1>music is the answer
+          <div class="goodvibes">YOUR DAILY DOSE OF GOOD VIBES!</div>
+        </h1>
+        
+        <p class="Discover">
+          Discover new tunes and set the right mood for your everyday activites.
+          <img class="guy_music" src="assets/guy_music.avif" alt="" />
+        </p>
       </div>
-      <img class="first-image" src="assets/enjoying_music.avif" alt="" />
     </section>
 
-    <iframe class="playlist" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/pink-friday-2-gag-city-pluto-edition/1725588426"></iframe>
+    <!-- iframes -->
+
+    <div class="frames">
+      <iframe class="nicki" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/pink-friday-2-gag-city-pluto-edition/1725588426"></iframe>
+
+      <iframe class="taylors" allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/midnights-the-til-dawn-edition/1689131527"></iframe>
+
+      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/music-video/mood-4-eva-feat-oumou-sangar%C3%A9/1579578153"></iframe>
+
+    </div>
+
+    <!-- section 2 -->
 
     <section class="section2">
       <h2>about</h2>
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-      </p>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
       
-      <img class="girl_music" src="assets/girl_music.avif" alt="">
-      <iframe class="taylors" allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/midnights-the-til-dawn-edition/1689131527"></iframe>
-      <div class="about-section">
+      <!-- <span class="about-section">
+        <img class="girl_music" src="assets/girl_music.avif" alt="">
         Smooth jazz melodies will releive tension, and allow you to focus on
         learning.
-      </div>
-    </section>
+      </span>
+    </section> -->
+
+    <!-- Section 3 -->
+
     <section class="section3">
       <nav class="second-nav">
         <ul">
@@ -83,6 +94,7 @@
         alt="studio-artist"
       />
     </section>
+  <footer>
     <section class="section4" class="social-media">
       <a href="#" class="fa fa-facebook"></a>
       <a href="#" class="fa fa-twitter"></a>
@@ -90,10 +102,7 @@
       <a href="#" class="fa fa-spotify"></a>
       <a href="#" class="fa fa-search"></a>
     </section>
-
-    <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/music-video/mood-4-eva-feat-oumou-sangar%C3%A9/1579578153"></iframe>
-
-   
+  </footer>
   </body>
 </html>
 
