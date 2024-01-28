@@ -36,10 +36,9 @@ h1 {
 }
 
 /* Classes */
-
+/* 
 .nav-bar {
-  overflow: hidden;
-}
+} */
 
 li {
   margin: 10px 0;
@@ -52,6 +51,17 @@ li {
   text-align: center;
   text-decoration: none;
   flex-direction: column-reverse;
+  margin: 8px;
+}
+
+.social-media a {
+ 
+  display: flex;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  flex-direction: column-reverse;
+  margin: 8px;
 }
 
 .press-play {
