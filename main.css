@@ -27,28 +27,6 @@ button {
   font-family: "Audiowide", sans-serif;
 }
 
-/* Navigation styles */
-.nav-bar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-.nav-bar ul li {
-  margin-right: 20px;
-}
-
-.nav-bar2 li {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  margin-left: 200px;
-  text-align: center;
-  float: right;
-}
-
 /* classes */
 
 .symbol {
@@ -101,7 +79,7 @@ button {
 .press-play {
   display: inline-block;
   text-align: center;
-  font-size: 175px;
+  font-size: 125px;
   color: white;
 }
 
