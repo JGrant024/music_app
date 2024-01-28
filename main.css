@@ -29,6 +29,31 @@ button {
 
 /* Classes */
 
+.nav-bar {
+  overflow: hidden;
+}
+
+.nav-bar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.press-play {
+  /* display: inline-block; */
+  text-align: center;
+  font-size: 85px;
+  color: orange;
+}
+
 .symbol {
   transform: rotate(90deg);
   font-size: 75px;
@@ -38,18 +63,19 @@ button {
   line-height: -10px;
 }
 
-.frames {
-  white-space: nowrap;
+.sign-up {
+  font-size: 20px;
+  margin: 8px;
+}
+
+.container {
+  display: flex;
 }
 
 .goodvibes {
   color: white;
   font-size: 20px;
   line-height: 125px;
-}
-
-.container {
-  display: flex;
 }
 
 .Discover,
@@ -64,26 +90,8 @@ button {
   float: right;
 }
 
-.nav {
-  text-align: center;
-}
-
-.logo-container {
-  display: flex;
-  border-bottom: 2px solid black;
-  margin: 0 auto; /* Centered the container */
-}
-
-.press-play {
-  display: inline-block;
-  text-align: center;
-  font-size: 85px;
-  color: orange;
-}
-
-.sign-up {
-  font-size: 20px;
-  margin: 8px;
+.frames {
+  white-space: nowrap;
 }
 
 /* Social media section */
@@ -113,11 +121,6 @@ button {
 
 .studio-artist {
   height: 200px;
-}
-
-.second-nav {
-  font-family: "Audiowide", sans-serif;
-  color: white;
 }
 
 /* a tags */
