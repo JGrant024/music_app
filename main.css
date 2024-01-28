@@ -16,7 +16,7 @@ ul {
   padding: 0;
 }
 
-/* elements */
+/* Elements */
 h1 {
   font-weight: bold;
   color: black;
@@ -27,15 +27,15 @@ button {
   font-family: "Audiowide", sans-serif;
 }
 
-/* classes */
+/* Classes */
 
 .symbol {
   transform: rotate(90deg);
-  font-size: 50px;
+  font-size: 75px;
   display: inline-block;
   text-align: center;
-  font-size: 175px;
-  color: white;
+  color: orange;
+  line-height: -10px;
 }
 
 .frames {
@@ -52,16 +52,8 @@ button {
   display: flex;
 }
 
-.Discover {
-  font-size: 30px;
-  text-align: right;
-}
-
-.explore-page {
-  font-size: 50px;
-  color: white;
-}
-
+.Discover,
+.explore-page,
 .about-page {
   font-size: 50px;
 }
@@ -76,11 +68,17 @@ button {
   text-align: center;
 }
 
+.logo-container {
+  display: flex;
+  border-bottom: 2px solid black;
+  margin: 0 auto; /* Centered the container */
+}
+
 .press-play {
   display: inline-block;
   text-align: center;
-  font-size: 125px;
-  color: white;
+  font-size: 85px;
+  color: orange;
 }
 
 .sign-up {
@@ -132,14 +130,14 @@ a:hover {
   text-decoration: underline;
 }
 
-/* section 2 */
+/* Section 2 */
 .about-section {
   padding: 30px;
   float: right;
   font-family: "Sedgwick Ave", cursive;
 }
 
-/* section 3 */
+/* Section 3 */
 
 /* @media */
 @media screen and (min-width: 640px) {
