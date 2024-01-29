@@ -21,8 +21,9 @@ ul li {
 
 h1 {
   font-weight: bold;
-  color: black;
+  color: orangered;
   font-size: 65px;
+  padding: 75px;
 }
 
 .button {
@@ -35,11 +36,6 @@ h1 {
   font-size: 16px;
 }
 
-/* Classes */
-/* 
-.nav-bar {
-} */
-
 li {
   margin: 10px 0;
 }
@@ -47,11 +43,12 @@ li {
 .nav-bar a {
   float: right;
   display: flex;
-  color: orange;
+  color: orangered;
   text-align: center;
   text-decoration: none;
   flex-direction: column-reverse;
   margin: 8px;
+  font-size: 25px;
 }
 
 .social-media a {
@@ -67,7 +64,7 @@ li {
   /* display: inline-block; */
   text-align: center;
   font-size: 85px;
-  color: orange;
+  color: orangered;
 }
 
 .symbol {
@@ -75,8 +72,21 @@ li {
   font-size: 75px;
   display: inline-block;
   text-align: center;
-  color: orange;
+  color: orangered;
   line-height: -10px;
+}
+
+.playlist {
+  text-align: center;
+  color: orangered;
+  font-size: 75px;
+}
+
+.playlist1 {
+  text-align: center;
+  color: orangered;
+  font-size: 25px;
+  font-family: "Avenir LT Pro", sans-serif;
 }
 
 .sign-up {
@@ -166,12 +176,6 @@ a:hover {
 /* Section 3 */
 
 /* @media */
-@media screen and (min-width: 640px) {
-  .fa-spotify {
-    color: green;
-    height: 120px;
-  }
-}
 
 /* main.css */
 @keyframes fadeIn {
@@ -186,7 +190,7 @@ a:hover {
 .press-play,
 .goodvibes,
 .Discover {
-  animation: fadeIn 3.5s ease-out;
+  animation: fadeIn 1.5s ease-out;
 }
 
 div.gallery {
