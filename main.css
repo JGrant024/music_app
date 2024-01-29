@@ -175,9 +175,6 @@ a:hover {
 
 /* Section 3 */
 
-/* @media */
-
-/* main.css */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -242,5 +239,10 @@ div.desc {
 
 .all {
   text-align: center;
-  font-family: ;
+  font-family: "Avenir LT Pro", sans-serif;
+  font-size: 75px;
+  color: orangered;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  margin: 20px;
 }
