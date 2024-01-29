@@ -1,197 +1,145 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Press Play! </title>
-    <!-- bootstrap link -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <!-- font links  -->
 
-    
-    <link
-      href="https://fonts.cdnfonts.com/css/avenir-lt-pro"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="main.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Press Play!</title>
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- Font links -->
+  <link href="https://fonts.cdnfonts.com/css/avenir-lt-pro" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="main.css" />
 
-    <!-- login css links -->
-    <link rel="stylesheet" href="login.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Login CSS links -->
+  <link rel="stylesheet" href="login.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
 
-    <!-- end of login css links -->
+  <!-- Audio -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Le&family=Sedgwick+Ave&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <!-- audio -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Audiowide"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Le&family=Sedgwick+Ave&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <nav class="nav-bar">
-        <li><a href="./playlist.html">Playlist</a></li>
-        <li>
-          <a href="./sign-up.html">Sign Up</a>
-        </li>
-        <li>
-          <a href="./login.html">Login</a>
-        </li>
-      </nav>
-      <ul>
-        <li>
-          <div class="press-play">
-            <div class="symbol">&#9850;</div>
-            Press Play
-          </div>
-        </li>
-      </ul>
-    </header>
-    
-
-    <br />
-    <section class="section1">
-      <div class="container">
-        <h1>
-          music is the answer
-          <div class="row" class="frames">
-            <iframe 
-              allow="autoplay *; encrypted-media *;"
-              frameborder="0"
-              height="450"
-              style="
-                width: 100%;
-                max-width: 660px;
-                overflow: hidden;
-                background: transparent;
-              "
-              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-              src="https://embed.music.apple.com/us/music-video/mood-4-eva-feat-oumou-sangar%C3%A9/1579578153"
-            ></iframe>
-          
-
-
-            
-          
+<body>
+  <header>
+    <nav class="nav-bar">
+      <li><a href="./playlist.html">Playlist</a></li>
+      <li><a href="./sign-up.html">Sign Up</a></li>
+      <li><a href="./login.html">Login</a></li>
+    </nav>
+    <ul>
+      <li>
+        <div class="press-play">
+          <div class="symbol">&#9850;</div>
+          Press Play
+        </div>
+      </li>
+    </ul>
+  </header>
+  <br />
+  <section class="section1">
+    <div class="container">
+      <h1>
+        music is the answer
+        <div class="row frames">
+          <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
+            style="width: 100%; max-width: 660px; overflow: hidden; background: transparent;"
+            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+            src="https://embed.music.apple.com/us/music-video/mood-4-eva-feat-oumou-sangar%C3%A9/1579578153"></iframe>
           <div class="goodvibes">YOUR DAILY DOSE OF GOOD VIBES!</div>
           <p class="Discover">
-            Discover new tunes 
-          </p><p class="Discover">and set the right </p> <p class="Discover"> mood for your <p class="Discover">everyday
-            activites.</p>
-            
+            Discover new tunes
           </p>
-        </h1>
-      </div>
-    </section>
+          <p class="Discover">and set the right</p>
+          <p class="Discover">mood for your <p class="Discover">everyday activities.</p>
+          </p>
+        </div>
+      </h1>
+    </div>
+  </section>
 
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/girl_music.avif">
-          <img src="assets/girl_music.avif" alt="Cinque Terre">
-        </a>
-        <div class="desc">Tune in to the hottest new music!</div>
-      </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/girl_music.avif">
+        <img src="assets/girl_music.avif" alt="Cinque Terre">
+      </a>
+      <div class="desc">Tune in to the hottest new music!</div>
     </div>
-    
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/phone_music.avif">
-          <img src="assets/phone_music.avif" alt="Forest">
-        </a>
-        <div class="desc">Download our Mobile App and listen on the Go!</div>
-      </div>
-    </div>
-  
-    
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/guy_music.avif">
-          <img src="assets/guy_music.avif" alt="guy_music">
-        </a>
-        <div class="desc">Turn up the bass and listen anywhere!</div>
-      </div>
-    </div>
-    
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/music from above.avif">
-          <img src="assets/music from above.avif" alt="Mountains">
-        </a>
-        <div class="desc">Create an account and add your favorite playlist!</div>
-      </div>
-    </div>
-    
-    <div class="clearfix"></div>
+  </div>
 
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/phone_music.avif">
+        <img src="assets/phone_music.avif" alt="Forest">
+      </a>
+      <div class="desc">Download our Mobile App and listen on the Go!</div>
+    </div>
+  </div>
 
-    <!-- iframes -->
-    <div class="row" class="frames">
-      <div class="column">      <iframe
-        class="taylors"
-        allow="autoplay *; encrypted-media *;"
-        frameborder="0"
-        height="450"
-        style="
-          width: 100%;
-          max-width: 660px;
-          overflow: hidden;
-          background: transparent;
-        "
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/guy_music.avif">
+        <img src="assets/guy_music.avif" alt="guy_music">
+      </a>
+      <div class="desc">Turn up the bass and listen anywhere!</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/music from above.avif">
+        <img src="assets/music from above.avif" alt="Mountains">
+      </a>
+      <div class="desc">Create an account and add your favorite playlist!</div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <!-- iframes -->
+  <div class="row frames">
+    <div class="column">
+      <iframe class="taylors" allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
+        style="width: 100%; max-width: 660px; overflow: hidden; background: transparent;"
         sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-        src="https://embed.music.apple.com/us/album/midnights-the-til-dawn-edition/1689131527"
-      ></iframe></div>
-      <div class="column">
-      <iframe
-        class="nicki"
-        allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-        frameborder="0"
-        height="450"
-        style="
-          width: 100%;
-          max-width: 660px;
-          overflow: hidden;
-          border-radius: 10px;
-        "
-        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-        src="https://embed.music.apple.com/us/album/pink-friday-2-gag-city-pluto-edition/1725588426"
-      ></iframe></div>
-      <div class="column">
-        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/pop-deluxe/pl.b8386e6c0e314ae197c995093e8e5099"></iframe>
-
-      </div>
-      <div class="column"><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/renaissance/1630005298"></iframe></div>
+        src="https://embed.music.apple.com/us/album/midnights-the-til-dawn-edition/1689131527"></iframe>
     </div>
-   <script src="main.js"></script>
-   <footer>
+    <div class="column">
+      <iframe class="nicki" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0"
+        height="450" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px;"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+        src="https://embed.music.apple.com/us/album/pink-friday-2-gag-city-pluto-edition/1725588426"></iframe>
+    </div>
+    <div class="column">
+      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
+        style="width:100%; max-width:660px; overflow:hidden; background:transparent;"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+        src="https://embed.music.apple.com/us/playlist/pop-deluxe/pl.b8386e6c0e314ae197c995093e8e5099"></iframe>
+    </div>
+    <div class="column">
+      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
+        style="width:100%; max-width:660px; overflow:hidden; background:transparent;"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+        src="https://embed.music.apple.com/us/album/renaissance/1630005298"></iframe>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+
+  <footer>
     <div class="press-play">
       <div class="symbol">&#9850;</div>
       Press Play
     </div>
     <p>Created by Jonathan Grant. Student of Carolina Code School</p>
-   </footer>
-  </body>
+  </footer>
+</body>
+
 </html>
