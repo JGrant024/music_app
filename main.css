@@ -86,6 +86,7 @@ li {
   color: orangered;
   font-size: 25px;
   font-family: "Avenir LT Pro", sans-serif;
+  margin: 60px;
 }
 
 .sign-up {
@@ -242,6 +243,6 @@ div.desc {
   font-size: 75px;
   color: orangered;
   padding-top: 65px;
-  padding-bottom: 65px;
+  padding-bottom: 25px;
   margin: 20px;
 }
