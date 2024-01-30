@@ -2,11 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=
-    , initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playlist</title>
     <link rel="stylesheet" href="main.css" />
   </head>
@@ -17,6 +13,16 @@
       Are you looking to explore other playlist? Scroll down and check it
       out.
     </p>
+
+    <!-- search form -->
+    <form class="search-box" id="favorites"> 
+      <input class="search-box" type="search" id="search" name="searchBox" placeholder="Search...">
+      <button>Search</button>
+      <div id="favoritesList">
+        <ul></ul>
+      </div>
+    </form>
+    
 
     <p class="all">Suggested Lofi</p>
 
@@ -250,5 +256,6 @@
     </div>
     <p>Created by Jonathan Grant. Student of Carolina Code School</p>
   </footer>
+  <script src="main.js"></script>
   </body>
 </html>

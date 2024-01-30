@@ -1,27 +1,51 @@
+"use strict";
+
 document.addEventListener("DOMContentLoaded", function () {
   const loginForm = document.querySelector(".login-form");
+  const favoritesForm = document.querySelector("#favorites");
+  const favoritesList = document.getElementById("favoritesList");
 
-  loginForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent the default form submission
+  favoritesForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    const searchInput = this.querySelector('input[name="searchBox"]');
+    const playlistName = searchInput.value;
+    console.log("Playlist Name:", playlistName);
 
-    //input values
     const usernameInput = document.getElementById("username");
     const passwordInput = document.getElementById("password");
+    const nameInput = document.getElementById("name");
+    const emailInput = document.getElementById("email");
 
     const usernameValue = usernameInput.value;
     const passwordValue = passwordInput.value;
+    const nameValue = nameInput.value;
+    const emailValue = emailInput.value;
 
-    displayValues(usernameValue, passwordValue);
-
-    console.log(usernameInput, passwordInput);
+    if (playlistName.trim() !== "") {
+      addFavoritePlaylist(playlistName);
+      // Call displayValues with the captured values
+      displayValues(usernameValue, passwordValue, nameValue, emailValue);
+      searchInput.value = "";
+    }
   });
 
-  function displayValues(username, password) {
-    // Create a new element to display values
-    const displayDiv = document.createElement("div");
-    displayDiv.innerHTML = `<p>Username: ${username}</p><p>Password: ${password}</p>`;
+  function addFavoritePlaylist(playlistName) {
+    console.log("Adding Playlist:", playlistName);
+    // Create a new element to display the favorite playlist
+    const playlistItem = document.createElement("li");
+    playlistItem.textContent = playlistName;
+    favoritesList.appendChild(playlistItem);
 
-    // Append the new element to the body or any other desired location
+    console.log("Favorite Playlist:", playlistName);
+  }
+
+  function displayValues(username, password, name, email) {
+    const displayDiv = document.createElement("div");
+    displayDiv.innerHTML = `<p>Username: ${username}</p><p>Password: ${password}</p><p>Name: ${name}</p><p>Email: ${email}</p>`; // Include all values
     document.body.appendChild(displayDiv);
+  }
+
+  function clearInput(input) {
+    input.value = "";
   }
 });
