@@ -15,12 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const passwordInput = document.getElementById("password");
     const nameInput = document.getElementById("name");
     const emailInput = document.getElementById("email");
-
+    const showArtist = document.getElementById();
+    const apiUrl = "https://api.discogs.com/artists/52835";
 
     const usernameValue = usernameInput.value;
     const passwordValue = passwordInput.value;
     const nameValue = nameInput.value;
     const emailValue = emailInput.value;
+    const apiValue = `${apiUrl}`
 
     // trim() clears any additional space or white spaces
     if (playlistName.trim() !== "") {
@@ -47,8 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.appendChild(displayDiv);
   }
 
-
-
   fetch("https://api.discogs.com/artists/52835", {
     method: "GET",
     headers: {
@@ -63,17 +63,12 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(function (data) {
       console.log(data);
       showArtist(data);
-      return data;
     });
 
   function showArtist(data) {
     console.log(data);
     const paragraph = document.createElement("p");
     paragraph.textContent = data.name;
-    root.appendChild(paragraph);
+    document.appendChild(paragraph, favoritesList);
   }
 });
-
-// function clearInput(input) {
-//   input.value = "";
-// }

@@ -279,13 +279,14 @@ div.desc {
 }
 
 /* Style the search box inside the navigation bar */
-.topnav input[type="text"] {
+.topnav input {
   float: right;
   padding: 6px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
+  font-family: "Avenir LT Pro", sans-serif;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
