@@ -253,12 +253,14 @@ div.desc {
 .topnav {
   overflow: hidden;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  display: block;
+  justify-content: flex-end;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -276,6 +278,8 @@ div.desc {
 .topnav a.active {
   background-color: oragered;
   color: white;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Style the search box inside the navigation bar */
