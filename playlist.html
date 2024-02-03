@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <div id="root" ></div>
     <div class="topnav" >
       <a class="active" href="./index.html">Home</a>
       <a class="active" href="./login.html">Login</a>
       <a class="active" href="./sign-up.html">Sign Up</a>
-      <!-- <input id="favorites" type="text" placeholder="Search.."> -->
+      
     </div>
     
     <div class="playlist">Playlist Page</div>
@@ -20,12 +19,31 @@
       Are you looking to explore other playlist? Scroll down and check it
       out.
     </p>
-
+    <div id="root" ></div>
+    <!-- this for for dynamtic generated elements -->
+    <form id="dynamicForm">
+    </form>
     <form class="favorites">
-    <label for="searchInput">Search:</label>
-    <input type="text" id="searchInput" name="searchInput">
-    <button type="submit">Submit</button>
-</form>
+      <label for="searchInput">Search:</label>
+      <input type="text" id="searchInput" name="searchInput">
+      <button type="submit">Submit</button>
+    </form>
+    <form id="apiForm">
+      <label for="artistName">Artist Name:</label>
+      <input type="text" id="artistName" name="artistName" required>
+    
+      <label for="releaseType">Release Type:</label>
+      <select id="releaseType" name="releaseType">
+        <option value="album">Album</option>
+        <option value="single">Single</option>
+        <!-- Add other options as needed -->
+      </select>
+    
+      <button type="submit">Submit</button>
+    </form>
+    
+    
+    
     <p class="all">Suggested Lofi</p>
 
     <div class="responsive">
