@@ -21,7 +21,7 @@ ul li {
 
 h1 {
   font-weight: bold;
-  color: orangered;
+  color: black;
   font-size: 65px;
   padding: 75px;
 }
@@ -241,7 +241,7 @@ div.desc {
   text-align: center;
   font-family: "Avenir LT Pro", sans-serif;
   font-size: 75px;
-  color: orangered;
+  color: black;
   padding-top: 65px;
   padding-bottom: 25px;
   margin: 20px;
