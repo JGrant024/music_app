@@ -26,6 +26,32 @@ h1 {
   padding: 75px;
 }
 
+/* #root {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.playlist-container {
+  display: flex;
+  align-items: center;
+}
+
+#playlist,
+.favorites {
+  margin-top: 10px;
+}
+
+.d-form {
+  width: 50%;
+
+  background-color: black;
+}
+
+.artist-Info {
+  width: 40%;
+  background-color: gray  ;
+}
+
 .button {
   background-color: orange;
   border: none;
@@ -255,7 +281,7 @@ div.desc {
   background-color: black;
   display: flex;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */

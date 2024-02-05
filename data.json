@@ -1,1 +1,914 @@
-{"name": "Beyonc\u00e9", "id": 52835, "resource_url": "https://api.discogs.com/artists/52835", "uri": "https://www.discogs.com/artist/52835-Beyonc\u00e9", "releases_url": "https://api.discogs.com/artists/52835/releases", "images": [{"type": "primary", "uri": "", "resource_url": "", "uri150": "", "width": 474, "height": 562}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 781}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 388}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 600}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 600}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 600}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 600}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 399}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 800}, {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 450}], "realname": "Beyonc\u00e9 Giselle Knowles-Carter n\u00e9e Beyonc\u00e9 Giselle Knowles", "profile": "Beyonc\u00e9 (born September 4, 1981, Houston, Texas, USA) is an American singer, songwriter and actress. She rose to fame in the late 1990s as lead singer of R&B girl group [a=Destiny's Child]. The release of Beyonc\u00e9's debut album, [i]Dangerously In Love[/i] (2003), established her as a solo artist, selling over 11 million copies and earning her five Grammy Awards.\r\n\r\nIn 2013, she released the self-titled album [i]Beyonc\u00e9[/i], which was critically acclaimed for its experimental production and departure from her previous work. In 2014, she ranked atop of Forbes'\u200b Celebrity 100 was listed among the 100 most influential people in the world by Time.\r\n\r\n[b]Use this entry only if she is credited as Beyonc\u00e9 (or a variation of her first name).[/b]", "urls": ["http://www.beyonce.com", "http://iam.beyonce.com", "http://www.facebook.com/beyonce", "http://genius.com/artists/Beyonce", "http://www.imdb.com/name/nm0461498", "http://www.instagram.com/beyonce", "http://www.songkick.com/artists/553938-beyonce", "http://soundcloud.com/beyonce", "http://www.tiktok.com/@beyonce", "http://twitter.com/Beyonce", "http://en.wikipedia.org/wiki/Beyonc%C3%A9", "http://www.youtube.com/beyonce"], "namevariations": ["B", "B.", "B1C", "B1c", "Bey", "Beynonce", "Beyon'ce", "Beyonc", "Beyonc e", "Beyonc \u00e9", "Beyonc'e", "Beyonce", "Beyonce'", "Beyonce\u0301", "Beyonce\u2019", "Beyonc\u00e8", "Beyonc\u00e9 Giselle Knowles", "Beyonnce", "Beyounce", "B\u00e9yonce", "\u30d3\u30e8\u30f3\u30bb", "\u78a7\u6602\u4e1d", "\u78a7\u6602\u65af", "\u78a7\u6602\u7d72", "\ube44\uc698\uc138"], "aliases": [{"id": 90038, "name": "Foxxy Cleopatra", "resource_url": "https://api.discogs.com/artists/90038"}, {"id": 112751, "name": "Beyonc\u00e9 Knowles", "resource_url": "https://api.discogs.com/artists/112751"}, {"id": 3377944, "name": "Third World Trill", "resource_url": "https://api.discogs.com/artists/3377944"}, {"id": 3377946, "name": "Third Ward Trill", "resource_url": "https://api.discogs.com/artists/3377946"}, {"id": 3922835, "name": "The Queen (2)", "resource_url": "https://api.discogs.com/artists/3922835"}, {"id": 4266511, "name": "Sasha (38)", "resource_url": "https://api.discogs.com/artists/4266511"}, {"id": 5021638, "name": "Beyonc\u00e9 Knowles Carter", "resource_url": "https://api.discogs.com/artists/5021638"}], "data_quality": "Needs Vote"}
+{
+    "pagination": {
+        "page": 1,
+        "pages": 73,
+        "per_page": 50,
+        "items": 3648,
+        "urls": {
+            "last": "https://api.discogs.com/artists/52835/releases?page=73&per_page=50",
+            "next": "https://api.discogs.com/artists/52835/releases?page=2&per_page=50"
+        }
+    },
+    "releases": [
+        {
+            "id": 750069,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Single, Promo",
+            "label": "Columbia",
+            "title": "I Got That",
+            "resource_url": "https://api.discogs.com/releases/750069",
+            "role": "Main",
+            "artist": "Amil Feat. Beyoncé",
+            "year": 2000,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 39,
+                    "in_collection": 29
+                }
+            }
+        },
+        {
+            "id": 6732114,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, Promo",
+            "label": "Columbia",
+            "title": "Mixshow CD",
+            "resource_url": "https://api.discogs.com/releases/6732114",
+            "role": "Main",
+            "artist": "Nas / Beyonce*",
+            "year": 2002,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 15,
+                    "in_collection": 4
+                }
+            }
+        },
+        {
+            "id": 41104,
+            "title": "Work It Out",
+            "type": "master",
+            "main_release": 887511,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41104",
+            "year": 2002,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 30,
+                    "in_collection": 105
+                }
+            }
+        },
+        {
+            "id": 47014,
+            "title": "'03 Bonnie & Clyde",
+            "type": "master",
+            "main_release": 5748116,
+            "artist": "Jay-Z Feat. Beyonce’*",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/47014",
+            "year": 2002,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 20,
+                    "in_collection": 5
+                }
+            }
+        },
+        {
+            "id": 4277906,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Album, RE + CD, Album, RE + Box, Comp",
+            "label": "Sony Music Media",
+            "title": "Dangerously In Love / Survivor",
+            "resource_url": "https://api.discogs.com/releases/4277906",
+            "role": "Main",
+            "artist": "Beyoncé / Destiny's Child",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 18,
+                    "in_collection": 7
+                }
+            }
+        },
+        {
+            "id": 4383182,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, Promo",
+            "label": "Columbia",
+            "title": "Dangerously In Love - Generic Interview Clips",
+            "resource_url": "https://api.discogs.com/releases/4383182",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 9,
+                    "in_collection": 4
+                }
+            }
+        },
+        {
+            "id": 10679318,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr",
+            "label": "Columbia",
+            "title": "In Da Club",
+            "resource_url": "https://api.discogs.com/releases/10679318",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 28,
+                    "in_collection": 12
+                }
+            }
+        },
+        {
+            "id": 19461775,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, Single, Promo",
+            "label": "MTV Music Television, Paramount Pictures",
+            "title": "The Fighting Temptations Best Original Song - He Still Loves Me -",
+            "resource_url": "https://api.discogs.com/releases/19461775",
+            "role": "Main",
+            "artist": "Beyoncé & Walter Williams",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 11,
+                    "in_collection": 2
+                }
+            }
+        },
+        {
+            "id": 21959512,
+            "status": "Accepted",
+            "type": "release",
+            "format": "Betacam SP, Advance, NTSC",
+            "label": "Music World Music (2), Columbia",
+            "title": "Baby Boy / Walked Outta Heaven",
+            "resource_url": "https://api.discogs.com/releases/21959512",
+            "role": "Main",
+            "artist": "Beyonce* Featuring Sean Paul / Jagged Edge (2)",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 1,
+                    "in_collection": 4
+                }
+            }
+        },
+        {
+            "id": 41113,
+            "title": "Baby Boy",
+            "type": "master",
+            "main_release": 781653,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41113",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 31,
+                    "in_collection": 137
+                }
+            }
+        },
+        {
+            "id": 41122,
+            "title": "Crazy In Love",
+            "type": "master",
+            "main_release": 443250,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41122",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 64,
+                    "in_collection": 236
+                }
+            }
+        },
+        {
+            "id": 41127,
+            "title": "Dangerously In Love",
+            "type": "master",
+            "main_release": 301709,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41127",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 193,
+                    "in_collection": 1401
+                }
+            }
+        },
+        {
+            "id": 41133,
+            "title": "Me, Myself And I",
+            "type": "master",
+            "main_release": 1767160,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41133",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 40,
+                    "in_collection": 120
+                }
+            }
+        },
+        {
+            "id": 41208,
+            "title": "Naughty Girl",
+            "type": "master",
+            "main_release": 809008,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41208",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 29,
+                    "in_collection": 101
+                }
+            }
+        },
+        {
+            "id": 41228,
+            "title": "Summertime",
+            "type": "master",
+            "main_release": 220959,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41228",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 121,
+                    "in_collection": 262
+                }
+            }
+        },
+        {
+            "id": 2001331,
+            "title": "What's It Gonna Be",
+            "type": "master",
+            "main_release": 17627203,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/2001331",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 2,
+                    "in_collection": 2
+                }
+            }
+        },
+        {
+            "id": 1118946,
+            "title": "Dangerously In Love Album Sampler",
+            "type": "master",
+            "main_release": 580358,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/1118946",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 178,
+                    "in_collection": 111
+                }
+            }
+        },
+        {
+            "id": 324738,
+            "title": "Fighting Temptation",
+            "type": "master",
+            "main_release": 1212191,
+            "artist": "Beyoncé, Missy Elliott, MC Lyte And Free (2)",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/324738",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 47,
+                    "in_collection": 83
+                }
+            }
+        },
+        {
+            "id": 1195252,
+            "title": "The Closer I Get To You",
+            "type": "master",
+            "main_release": 9060105,
+            "artist": "Beyoncé Duet With Luther Vandross",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/1195252",
+            "year": 2003,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 52,
+                    "in_collection": 15
+                }
+            }
+        },
+        {
+            "id": 4072191,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Enh",
+            "label": "Sony Music Special Products, Sony Music Special Products",
+            "title": "L'Oréal Paris",
+            "resource_url": "https://api.discogs.com/releases/4072191",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2004,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 54,
+                    "in_collection": 53
+                }
+            }
+        },
+        {
+            "id": 25075084,
+            "status": "Accepted",
+            "type": "release",
+            "format": "Acetate, 12\"",
+            "label": "Not On Label",
+            "title": "You Got Me Burning (Ruffed Up Remix) / Crazy In Love (Drum & Bass Remix)",
+            "resource_url": "https://api.discogs.com/releases/25075084",
+            "role": "Main",
+            "artist": "Peshay, Beyoncé",
+            "year": 2004,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 4,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 792937,
+            "title": "Star Spangled Banner (From The Super Bowl XXXVIII Performance)",
+            "type": "master",
+            "main_release": 6608526,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/792937",
+            "year": 2004,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 3,
+                    "in_collection": 4
+                }
+            }
+        },
+        {
+            "id": 1018584,
+            "title": "True Star (A Private Performance)",
+            "type": "master",
+            "main_release": 8680014,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/1018584",
+            "year": 2004,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 21,
+                    "in_collection": 79
+                }
+            }
+        },
+        {
+            "id": 1539163,
+            "title": "Heaven Knows / What's It Going To Be",
+            "type": "master",
+            "main_release": 13544348,
+            "artist": "Faith Evans / Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/1539163",
+            "year": 2004,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 29,
+                    "in_collection": 6
+                }
+            }
+        },
+        {
+            "id": 406969,
+            "title": "Live At Wembley",
+            "type": "master",
+            "main_release": 2552332,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/406969",
+            "year": 2004,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 42,
+                    "in_collection": 79
+                }
+            }
+        },
+        {
+            "id": 6790678,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, Single, Promo",
+            "label": "BMG Japan",
+            "title": "So Amazing",
+            "resource_url": "https://api.discogs.com/releases/6790678",
+            "role": "Main",
+            "artist": "Beyoncé & Stevie Wonder",
+            "year": 2005,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 17,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 27416823,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, Promo",
+            "label": "BMG, Sony BMG Music Entertainment",
+            "title": "Check On It",
+            "resource_url": "https://api.discogs.com/releases/27416823",
+            "role": "Main",
+            "artist": "Beyonce* ,Feat Slim Thug",
+            "year": 2005,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 0,
+                    "in_collection": 0
+                }
+            }
+        },
+        {
+            "id": 41238,
+            "title": "Check On It",
+            "type": "master",
+            "main_release": 635479,
+            "artist": "Beyoncé Featuring Slim Thug",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41238",
+            "year": 2005,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 30,
+                    "in_collection": 107
+                }
+            }
+        },
+        {
+            "id": 3965673,
+            "status": "Accepted",
+            "type": "release",
+            "format": "DVD-V, NTSC, Reg",
+            "label": "BET, Columbia",
+            "title": "BET Official Presents Beyoncé",
+            "resource_url": "https://api.discogs.com/releases/3965673",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 32,
+                    "in_collection": 80
+                }
+            }
+        },
+        {
+            "id": 6683817,
+            "status": "Accepted",
+            "type": "release",
+            "format": "DVDr, DVD-V, TP",
+            "label": "Music World Entertainment (2)",
+            "title": "Los Angeles 2006",
+            "resource_url": "https://api.discogs.com/releases/6683817",
+            "role": "Main",
+            "artist": "Beyonce*",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 18,
+                    "in_collection": 2
+                }
+            }
+        },
+        {
+            "id": 8795981,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Single, Ltd",
+            "label": "Sony Urban Music, Columbia, Music World Music (2)",
+            "title": "Creole",
+            "resource_url": "https://api.discogs.com/releases/8795981",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 62,
+                    "in_collection": 18
+                }
+            }
+        },
+        {
+            "id": 8945690,
+            "status": "Accepted",
+            "type": "release",
+            "format": "12\", Promo",
+            "label": "Most Valuable Productions",
+            "title": "\"Deja Vu\"",
+            "resource_url": "https://api.discogs.com/releases/8945690",
+            "role": "Main",
+            "artist": "High Aspirations (2) Vs Beyounce* Ft Jay Z*",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 43,
+                    "in_collection": 12
+                }
+            }
+        },
+        {
+            "id": 9178496,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr",
+            "label": "Sony Music Studios, New York City",
+            "title": "Listening Tour CD",
+            "resource_url": "https://api.discogs.com/releases/9178496",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 10,
+                    "in_collection": 3
+                }
+            }
+        },
+        {
+            "id": 11633993,
+            "status": "Accepted",
+            "type": "release",
+            "format": "Betacam SP, Advance, Comp, PAL",
+            "label": "Sony BMG Music Entertainment",
+            "title": "Compilation",
+            "resource_url": "https://api.discogs.com/releases/11633993",
+            "role": "Main",
+            "artist": "Christina Aguilera / Sandi Thom / Beyonce* / Justin Timberlake / Westlife",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 3,
+                    "in_collection": 2
+                }
+            }
+        },
+        {
+            "id": 15106859,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Single, Promo",
+            "label": "Sony BMG Music Entertainment",
+            "title": "Ain't No Other Man / Sexyback / Deja Vu",
+            "resource_url": "https://api.discogs.com/releases/15106859",
+            "role": "Main",
+            "artist": "Christina Aguilera / Justin Timberlake / Beyoncé",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 21,
+                    "in_collection": 5
+                }
+            }
+        },
+        {
+            "id": 18396439,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, Advance",
+            "label": "Sony Records Int'l",
+            "title": "B'Day - Promo Sampler",
+            "resource_url": "https://api.discogs.com/releases/18396439",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 4,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 41244,
+            "title": "B'Day",
+            "type": "master",
+            "main_release": 778599,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41244",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 149,
+                    "in_collection": 281
+                }
+            }
+        },
+        {
+            "id": 41579,
+            "title": "Déjà Vu",
+            "type": "master",
+            "main_release": 766613,
+            "artist": "Beyoncé Featuring Jay-Z",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41579",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 38,
+                    "in_collection": 196
+                }
+            }
+        },
+        {
+            "id": 41610,
+            "title": "Irreplaceable",
+            "type": "master",
+            "main_release": 5659879,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41610",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 36,
+                    "in_collection": 29
+                }
+            }
+        },
+        {
+            "id": 41636,
+            "title": "Listen",
+            "type": "master",
+            "main_release": 1599117,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41636",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 36,
+                    "in_collection": 113
+                }
+            }
+        },
+        {
+            "id": 41650,
+            "title": "Ring The Alarm",
+            "type": "master",
+            "main_release": 1598573,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/41650",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 57,
+                    "in_collection": 99
+                }
+            }
+        },
+        {
+            "id": 1733875,
+            "title": "Upgrade U",
+            "type": "master",
+            "main_release": 2075349,
+            "artist": "Beyoncé Feat. Jay-Z",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/1733875",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 121,
+                    "in_collection": 191
+                }
+            }
+        },
+        {
+            "id": 1720061,
+            "title": "Get Me Bodied / Suga Mama",
+            "type": "master",
+            "main_release": 7371316,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/1720061",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 105,
+                    "in_collection": 11
+                }
+            }
+        },
+        {
+            "id": 1355683,
+            "title": "The Ultimate Performer",
+            "type": "master",
+            "main_release": 11930917,
+            "artist": "Beyoncé",
+            "role": "Main",
+            "resource_url": "https://api.discogs.com/masters/1355683",
+            "year": 2006,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 19,
+                    "in_collection": 47
+                }
+            }
+        },
+        {
+            "id": 4280183,
+            "status": "Accepted",
+            "type": "release",
+            "format": "DVD-V, NTSC, Reg",
+            "label": "Columbia, MTV tr3s",
+            "title": "MTV Tr3s Presents Beyonce",
+            "resource_url": "https://api.discogs.com/releases/4280183",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2007,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 29,
+                    "in_collection": 41
+                }
+            }
+        },
+        {
+            "id": 4393250,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, Comp, Promo",
+            "label": "Blaze Imprints",
+            "title": "Family / Listen / Force Of Nature",
+            "resource_url": "https://api.discogs.com/releases/4393250",
+            "role": "Main",
+            "artist": "Dreamgirls / Beyonce* / Sunshine Anderson",
+            "year": 2007,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 36,
+                    "in_collection": 5
+                }
+            }
+        },
+        {
+            "id": 4439968,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Maxi, Promo",
+            "label": "Sony BMG Music Entertainment",
+            "title": "\"Déjà Vu\" - Remixes / A Public Affair - MMX Advance",
+            "resource_url": "https://api.discogs.com/releases/4439968",
+            "role": "Main",
+            "artist": "Beyonce* / Jessica Simpson",
+            "year": 2007,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 32,
+                    "in_collection": 9
+                }
+            }
+        },
+        {
+            "id": 8988661,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Single, Promo",
+            "label": "Columbia, Norte",
+            "title": "Amor Gitano",
+            "resource_url": "https://api.discogs.com/releases/8988661",
+            "role": "Main",
+            "artist": "Alejandro Fernandez* & Beyonce*",
+            "year": 2007,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 25,
+                    "in_collection": 20
+                }
+            }
+        },
+        {
+            "id": 18395998,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CDr, Promo, Smplr",
+            "label": "Sony Records Int'l",
+            "title": "B'Day - The Beyoncé Experience Live",
+            "resource_url": "https://api.discogs.com/releases/18395998",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2007,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 5,
+                    "in_collection": 1
+                }
+            }
+        },
+        {
+            "id": 29394145,
+            "status": "Accepted",
+            "type": "release",
+            "format": "CD, Album + DVD-V, PAL + Dlx",
+            "label": "Sony BMG Music Entertainment (2), Columbia (2)",
+            "title": "B'Day",
+            "resource_url": "https://api.discogs.com/releases/29394145",
+            "role": "Main",
+            "artist": "Beyoncé",
+            "year": 2007,
+            "thumb": "",
+            "stats": {
+                "community": {
+                    "in_wantlist": 0,
+                    "in_collection": 0
+                }
+            }
+        }
+    ]
+}
