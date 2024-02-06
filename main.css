@@ -26,14 +26,15 @@ h1 {
   padding: 75px;
 }
 
-/* #root {
-  display: flex;
-  justify-content: space-around;
-} */
-
 .playlist-container {
-  display: flex;
-  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-style: italic;
+}
+
+.artistName {
+  text-align: center;
 }
 
 #playlist,
@@ -43,13 +44,12 @@ h1 {
 
 .d-form {
   width: 50%;
-
   background-color: black;
 }
 
 .artist-Info {
   width: 40%;
-  background-color: gray  ;
+  background-color: gray;
 }
 
 .button {
