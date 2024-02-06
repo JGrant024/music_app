@@ -69,42 +69,44 @@ apiForm.addEventListener("submit", function (e) {
 });
 
 // Function to initialize the page
-function initializePage() {
-  // Get DOM elements
-  favoritesForm = document.querySelector("#favorites");
-  favoritesList = document.getElementById("favoritesList");
-  const searchInput = favoritesForm.querySelector('input[type="text"]');
+// function initializePage() {
+//   // Get DOM elements
+//   const favoritesForm = document.querySelector("#favorites");
+//   const favoritesList = document.getElementById("favoritesList");
+//   const searchInput = favoritesForm.querySelector('input[type="text"]');
 
-  // Event listener for form submission
-  if (favoritesForm) {
-    favoritesForm.addEventListener("submit", function (event) {
-      event.preventDefault();
-      const artistName = searchInput.value.trim();
+//   // Event listener for form submission
+//   if (favoritesForm) {
+//     favoritesForm.addEventListener("submit", function (event) {
+//       event.preventDefault();
+//       const artistName = searchInput.value.trim();
+//       showArtist(name);
+//       getReleases(releases_url);
 
-      if (artistName.trim() !== "") {
-        // Fetch artist data and releases on form submission
-        get(
-          `https://api.discogs.com/artists/${artistId}/releases?token=AzlzFTgEejqmwqBzejbfmWRakRtyWnABXAMJvvio`
-        )
-          .then(function (data) {
-            const { name, releases_url } = data;
-            // Clear previous results
-            document.querySelector("#root").innerHTML = "";
-            // Display artist name
-            showArtist(name);
-            // Display releases
-            return getReleases(releases_url);
-          })
-          .catch(function (error) {
-            console.error("Error fetching artist data:", error);
-          });
-      }
-    });
-  }
-}
+//       if (artistName.trim() !== "") {
+//         // Fetch artist data and releases on form submission
+//         get(
+//           `https://api.discogs.com/artists/${artistId}/releases?token=AzlzFTgEejqmwqBzejbfmWRakRtyWnABXAMJvvio`
+//         )
+//           .then(function (data) {
+//             const { name, releases_url } = data;
+//             // Clear previous results
+//             document.querySelector("#root").innerHTML = "";
+//             // Display artist name
+//             showArtist(name);
+//             // Display releases
+//             return getReleases(releases_url);
+//           })
+//           .catch(function (error) {
+//             console.error("Error fetching artist data:", error);
+//           });
+//       }
+//     });
+//   }
+// }
 
 // Event listener for page load
-document.addEventListener("DOMContentLoaded", initializePage);
+// document.addEventListener("DOMContentLoaded", initializePage);
 console.log("Content loaded!!");
 // Function to display values in a div
 function displayValues(username, password, name, email) {
@@ -122,8 +124,6 @@ function displayValues(username, password, name, email) {
     // Destructure our data
     const { name, releases_url } = data;
     // Call it back
-    // showArtist(name);
-    // getReleases(releases_url);
   });
 })();
 

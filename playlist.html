@@ -21,6 +21,7 @@
     <p class="playlist1">
       Are you looking to explore other playlist? Scroll down and check it out.
     </p>
+    <p class="playlist">Programming Joke of The Day</p>
 
     <div class="playlist-container"></div>
     <br />
@@ -28,20 +29,22 @@
     <aside class="artist-Info" id="artistInfo"></aside>
 
     <!-- this for for dynamtic generated elements -->
-    <form id="dynamicForm" class="d-form"></form>
-    <form id="apiForm">
-      <label for="artistName">Artist Name:</label>
-      <input type="text" id="artistName" name="artistName" required />
+    <div class="artistName">
+      <form class="api-form" id="apiForm">
+        <label class="artistName" for="artistName">Artist Name:</label>
+        <input type="text" id="artistName" name="artistName" required />
 
-      <label for="releaseType">Release Type:</label>
-      <select id="releaseType" name="releaseType">
-        <option value="album">Album</option>
-        <option value="single">Single</option>
-        <!-- Add other options as needed -->
-      </select>
+        <label for="releaseType">Release Type:</label>
+        <select id="releaseType" name="releaseType">
+          <option value="album">Album</option>
+          <option value="single">Single</option>
+          <!-- Add other options as needed -->
+        </select>
 
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="dynamicForm"></div>
+    </div>
 
     <p class="all">Suggested Lofi</p>
 
