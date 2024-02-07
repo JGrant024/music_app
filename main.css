@@ -26,7 +26,8 @@ h1 {
   padding: 75px;
 }
 
-.iframe {
+.iframe,
+.frames {
   text-align: center;
 }
 
