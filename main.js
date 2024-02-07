@@ -26,7 +26,7 @@ function showArtist(artistsName) {
 }
 
 // Function to get releases and display them dynamically
-function getReleases(url) {
+const getReleases = (url) => {
   return get(url + "?token=AzlzFTgEejqmwqBzejbfmWRakRtyWnABXAMJvvio").then(
     function (data) {
       const { releases } = data;
@@ -59,7 +59,7 @@ function getReleases(url) {
       });
     }
   );
-}
+};
 const apiForm = document.querySelector("#apiForm");
 apiForm.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -115,14 +115,14 @@ apiForm.addEventListener("submit", function (e) {
 // document.addEventListener("DOMContentLoaded", initializePage);
 // console.log("Content loaded!!");
 // Function to display values in a div
-function displayValues(username, password, name, email) {
+const displayValues = (username, password, name, email) => {
   if (!displayDiv) {
     displayDiv = document.createElement("div");
     document.body.appendChild(displayDiv);
   }
 
   displayDiv.innerHTML = `<p>Username: ${username}</p><p>Password: ${password}</p><p>Name: ${name}</p><p>Email: ${email}</p>`;
-}
+};
 (function () {
   get(
     `https://api.discogs.com/artists/${artistId}?token=AzlzFTgEejqmwqBzejbfmWRakRtyWnABXAMJvvio`
@@ -151,7 +151,7 @@ function get(url) {
     });
 }
 // For programming joke
-function displayProgrammingJoke(jokeSetup, jokePunchline) {
+const displayProgrammingJoke = (jokeSetup, jokePunchline) => {
   const playlistContainer = document.querySelector(".playlist-container");
 
   const jokeDiv = document.createElement("div");
@@ -172,9 +172,9 @@ function displayProgrammingJoke(jokeSetup, jokePunchline) {
   jokeDiv.appendChild(setupParagraph);
   jokeDiv.appendChild(punchlineParagraph);
   playlistContainer.appendChild(jokeDiv);
-}
+};
 
-function getProgrammingJoke() {
+const getProgrammingJoke = () =>  {
   const apiUrl =
     "https://official-joke-api.appspot.com/jokes/programming/random";
 
@@ -195,6 +195,6 @@ function getProgrammingJoke() {
     .catch(function (error) {
       console.error("Error fetching programming joke:", error);
     });
-}
+};
 
 getProgrammingJoke();
