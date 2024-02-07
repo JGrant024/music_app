@@ -33,16 +33,22 @@ function getReleases(url) {
       console.log("Artist data:", data);
       const dynamicForm = document.getElementById("dynamicForm");
 
-      releases.forEach(function (release) {
+      const list = document.createElement("ul");
+
+      releases.map(function (release) {
+        // create a list item
         const listItem = document.createElement("li");
         const checkbox = document.createElement("input");
         checkbox.name = "selectedReleases";
         checkbox.value = release.title;
-
+        // create label
         const label = document.createElement("label");
         label.textContent = release.title;
 
         const addFavoritePlaylistBtn = document.createElement("button");
+        addFavoritePlaylistBtn.addEventListener("click", function (e) {
+          e.preventDefault();
+        });
         addFavoritePlaylistBtn.type = "button";
         addFavoritePlaylistBtn.textContent = "Add to Favorites";
 
@@ -69,43 +75,45 @@ apiForm.addEventListener("submit", function (e) {
 });
 
 // Function to initialize the page
-function initializePage() {
-  // Get DOM elements
-  favoritesForm = document.querySelector("#favorites");
-  favoritesList = document.getElementById("favoritesList");
-  const searchInput = favoritesForm.querySelector('input[type="text"]');
+// function initializePage() {
+//   // Get DOM elements
+//   const favoritesForm = document.querySelector("#favorites");
+//   const favoritesList = document.getElementById("favoritesList");
+//   const searchInput = favoritesForm.querySelector('input[type="text"]');
 
-  // Event listener for form submission
-  if (favoritesForm) {
-    favoritesForm.addEventListener("submit", function (event) {
-      event.preventDefault();
-      const artistName = searchInput.value.trim();
+//   // Event listener for form submission
+//   if (favoritesForm) {
+//     favoritesForm.addEventListener("submit", function (event) {
+//       event.preventDefault();
+//       const artistName = searchInput.value.trim();
+//       showArtist(name);
+//       getReleases(releases_url);
 
-      if (artistName.trim() !== "") {
-        // Fetch artist data and releases on form submission
-        get(
-          `https://api.discogs.com/artists/${artistId}/releases?token=AzlzFTgEejqmwqBzejbfmWRakRtyWnABXAMJvvio`
-        )
-          .then(function (data) {
-            const { name, releases_url } = data;
-            // Clear previous results
-            document.querySelector("#root").innerHTML = "";
-            // Display artist name
-            showArtist(name);
-            // Display releases
-            return getReleases(releases_url);
-          })
-          .catch(function (error) {
-            console.error("Error fetching artist data:", error);
-          });
-      }
-    });
-  }
-}
+//       if (artistName.trim() !== "") {
+//         // Fetch artist data and releases on form submission
+//         get(
+//           `https://api.discogs.com/artists/${artistId}/releases?token=AzlzFTgEejqmwqBzejbfmWRakRtyWnABXAMJvvio`
+//         )
+//           .then(function (data) {
+//             const { name, releases_url } = data;
+//             // Clear previous results
+//             document.querySelector("#root").innerHTML = "";
+//             // Display artist name
+//             showArtist(name);
+//             // Display releases
+//             return getReleases(releases_url);
+//           })
+//           .catch(function (error) {
+//             console.error("Error fetching artist data:", error);
+//           });
+//       }
+//     });
+//   }
+// }
 
 // Event listener for page load
-document.addEventListener("DOMContentLoaded", initializePage);
-console.log("Content loaded!!");
+// document.addEventListener("DOMContentLoaded", initializePage);
+// console.log("Content loaded!!");
 // Function to display values in a div
 function displayValues(username, password, name, email) {
   if (!displayDiv) {
@@ -122,8 +130,6 @@ function displayValues(username, password, name, email) {
     // Destructure our data
     const { name, releases_url } = data;
     // Call it back
-    // showArtist(name);
-    // getReleases(releases_url);
   });
 })();
 
