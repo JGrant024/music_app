@@ -33,16 +33,22 @@ function getReleases(url) {
       console.log("Artist data:", data);
       const dynamicForm = document.getElementById("dynamicForm");
 
-      releases.forEach(function (release) {
+      const list = document.createElement("ul");
+
+      releases.map(function (release) {
+        // create a list item
         const listItem = document.createElement("li");
         const checkbox = document.createElement("input");
         checkbox.name = "selectedReleases";
         checkbox.value = release.title;
-
+        // create label
         const label = document.createElement("label");
         label.textContent = release.title;
 
         const addFavoritePlaylistBtn = document.createElement("button");
+        addFavoritePlaylistBtn.addEventListener("click", function (e) {
+          e.preventDefault();
+        });
         addFavoritePlaylistBtn.type = "button";
         addFavoritePlaylistBtn.textContent = "Add to Favorites";
 
@@ -107,7 +113,7 @@ apiForm.addEventListener("submit", function (e) {
 
 // Event listener for page load
 // document.addEventListener("DOMContentLoaded", initializePage);
-console.log("Content loaded!!");
+// console.log("Content loaded!!");
 // Function to display values in a div
 function displayValues(username, password, name, email) {
   if (!displayDiv) {
