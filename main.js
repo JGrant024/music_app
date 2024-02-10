@@ -174,7 +174,7 @@ const displayProgrammingJoke = (jokeSetup, jokePunchline) => {
   playlistContainer.appendChild(jokeDiv);
 };
 
-const getProgrammingJoke = () =>  {
+const getProgrammingJoke = () => {
   const apiUrl =
     "https://official-joke-api.appspot.com/jokes/programming/random";
 
