@@ -5,6 +5,10 @@ app = FastAPI()
 
 
 
+
+
+
+
 # Setup our origins...
 # ...for now it's just our local environments
 origins = [
@@ -25,3 +29,6 @@ app.add_middleware(
 def home():
     return {"message": "Root Route"} 
 
+@app.get("/testing")
+def test1(): 
+    return{"message": "Testing new route"}
