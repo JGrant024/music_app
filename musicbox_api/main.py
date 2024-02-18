@@ -1,4 +1,4 @@
-from sqlalchemy import declarative_base 
+from sqlalchemy.ext.declarative import declarative_base 
 from fastapi import FastAPI 
 from fastapi.middleware.cors import CORSMiddleware
 from db import session
