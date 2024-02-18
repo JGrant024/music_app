@@ -31,4 +31,4 @@ def home():
 
 @app.get("/testing")
 def test1(): 
-    return{"message": "Testing new route"}
+    return{"message": "Testing newwq route"}

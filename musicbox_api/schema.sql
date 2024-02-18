@@ -9,4 +9,5 @@ CREATE TABLE IF NOT EXISTS tokens (
     id SERIAL PRIMARY KEY,
     user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
     token TEXT NOT NULL
-);
+); 
+
