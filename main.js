@@ -74,47 +74,6 @@ apiForm.addEventListener("submit", function (e) {
   });
 });
 
-// Function to initialize the page
-// function initializePage() {
-//   // Get DOM elements
-//   const favoritesForm = document.querySelector("#favorites");
-//   const favoritesList = document.getElementById("favoritesList");
-//   const searchInput = favoritesForm.querySelector('input[type="text"]');
-
-//   // Event listener for form submission
-//   if (favoritesForm) {
-//     favoritesForm.addEventListener("submit", function (event) {
-//       event.preventDefault();
-//       const artistName = searchInput.value.trim();
-//       showArtist(name);
-//       getReleases(releases_url);
-
-//       if (artistName.trim() !== "") {
-//         // Fetch artist data and releases on form submission
-//         get(
-//           `https://api.discogs.com/artists/${artistId}/releases?token=AzlzFTgEejqmwqBzejbfmWRakRtyWnABXAMJvvio`
-//         )
-//           .then(function (data) {
-//             const { name, releases_url } = data;
-//             // Clear previous results
-//             document.querySelector("#root").innerHTML = "";
-//             // Display artist name
-//             showArtist(name);
-//             // Display releases
-//             return getReleases(releases_url);
-//           })
-//           .catch(function (error) {
-//             console.error("Error fetching artist data:", error);
-//           });
-//       }
-//     });
-//   }
-// }
-
-// Event listener for page load
-// document.addEventListener("DOMContentLoaded", initializePage);
-// console.log("Content loaded!!");
-// Function to display values in a div
 const displayValues = (username, password, name, email) => {
   if (!displayDiv) {
     displayDiv = document.createElement("div");

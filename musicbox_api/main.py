@@ -1,13 +1,11 @@
+from sqlalchemy import declarative_base 
 from fastapi import FastAPI 
 from fastapi.middleware.cors import CORSMiddleware
+from db import session
+
 
 app = FastAPI()
-
-
-
-
-
-
+Base = declarative_base
 
 # Setup our origins...
 # ...for now it's just our local environments
@@ -31,4 +29,5 @@ def home():
 
 @app.get("/testing")
 def test1(): 
-    return{"message": "Testing newwq route"}
+    return{"message": "Testing new route"}
+
