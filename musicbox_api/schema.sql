@@ -1,14 +1,8 @@
 
-
-
-
-
 CREATE TABLE Jokes (
-    id SERIAL PRIMARY KEy, 
+    id SERIAL PRIMARY KEY, 
     
 )
-
-
 
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
