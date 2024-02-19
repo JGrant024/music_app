@@ -1,7 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine, Column, Integer, String
 
 # 
 url = URL.create(
@@ -10,7 +9,6 @@ url = URL.create(
     password="",
     host="localhost",
     database="Music_app",
-    port=5432
 )
 
 

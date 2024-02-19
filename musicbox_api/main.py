@@ -27,7 +27,7 @@ app.add_middleware(
 def home():
     return {"message": "Root Route"} 
 
-@app.get("/testing")
-def test1(): 
+@app.get("/Jokes")
+def fetch_and_store_joke(): 
     return{"message": "Testing new route"}
 
